@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <input type="text" value="" id="input"><br>
+    <input type="text" value="0" disabled id="input2"><br>
+<button id="num7" onclick="siete()">7</button>
+<button id="num8" onclick="ocho()">8</button>
+<button id="num9" onclick="nueve()">9</button>
+<button id="clear" onclick="vaciar()">C</button><br>
+
+<button id="num4" onclick="cuatro()">4</button>
+<button id="num5" onclick="cinco()">5</button>
+<button id="num6" onclick="seis()">6</button>
+<button id="dividir" onclick="division()">/</button><br>
+
+
+<button id="num1" onclick="uno()">1</button>
+<button id="num2" onclick="dos()">2</button>
+<button id="num3" onclick="tres()">3</button>
+<button id="multiplicar" onclick="multiplicacion()">x</button><br>
+
+
+<button id="num0" onclick="cero()">0</button>
+<button id="numComa" onclick="coma()">.</button>
+<button id="restar" onclick="resta()">-</button><br>
+
+<button id="igual" onclick="calcular()">=</button>
+<button id="sumar" onclick="suma()">+</button><br>
+
+
+
+
+    <script src="calculadora.js"></script>
+</body>
+</html>

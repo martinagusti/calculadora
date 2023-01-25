@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+button{
+    margin-bottom: 4px;
+    width: 24vw;
+    height: 70px;
+    font-size: 40px;
+    border-radius: 10px;
+    opacity: 90%;
+    
+}
+input{
+    margin: 1vw;
+    width: 98vw;
+    height: 60px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: right;
+    border: none;
+    opacity: 90%;
+}
+body{
+    background-color: blue;
+    
+}
+#igual{
+    
+    width:74vw;
+}
+#num0{
+    width: 49vw;
+}
+#clear{
+    background-color: rgb(252, 35, 35);
+    opacity: 90%;
+    border: none;
+    color: antiquewhite;
+}
+#input{
+    border: 1px solid black;
+}
+#input2{
+    color: rgb(5, 26, 45);
+    
+}
